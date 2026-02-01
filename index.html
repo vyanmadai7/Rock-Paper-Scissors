@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=DM+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Rock Paper Scissors</h1>
+            <div class="controls">
+                <select id="difficulty">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate" selected>Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                    <option value="expert">Expert</option>
+                </select>
+                <button class="control-btn" id="theme-toggle" aria-label="Toggle theme">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                        <path
+                            d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <div class="game-layout">
+            <div class="score-section fade-in">
+                <div class="score-label">Your Score</div>
+                <div class="score-value" id="player-score">0</div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-label">Win Rate</span>
+                        <span class="stat-value" id="win-rate">—</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Current Streak</span>
+                        <span class="stat-value" id="streak">0</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Total Rounds</span>
+                        <span class="stat-value" id="total-rounds">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="choices-section fade-in" style="animation-delay: 0.1s;">
+                <div class="message" id="message">Make your choice</div>
+
+                <div class="choices">
+                    <div class="choice" data-choice="rock">
+                        <div class="choice-icon">🪨</div>
+                        <div class="choice-name">Rock</div>
+                    </div>
+                    <div class="choice" data-choice="paper">
+                        <div class="choice-icon">📄</div>
+                        <div class="choice-name">Paper</div>
+                    </div>
+                    <div class="choice" data-choice="scissors">
+                        <div class="choice-icon">✂️</div>
+                        <div class="choice-name">Scissors</div>
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <button class="btn" id="reset-btn">Reset Game</button>
+                    <button class="btn btn-secondary" id="stats-btn">View Statistics</button>
+                </div>
+            </div>
+
+            <div class="strategy-section fade-in" style="animation-delay: 0.2s;">
+                <div class="score-label">Computer Score</div>
+                <div class="score-value" id="computer-score">0</div>
+
+                <div
+                    style="margin-top: calc(var(--spacing-unit) * 4); padding-top: calc(var(--spacing-unit) * 3); border-top: 1px solid var(--color-border);">
+                    <div class="strategy-title">Difficulty Level</div>
+                    <div class="difficulty-info">
+                        <div class="difficulty-name" id="difficulty-name">Intermediate</div>
+                        <div class="difficulty-desc" id="difficulty-desc">Balanced gameplay with occasional strategic
+                            moves</div>
+                    </div>
+                </div>
+
+                <div class="game-history">
+                    <div class="history-title">Recent History</div>
+                    <div id="history-list">
+                        <div
+                            style="text-align: center; color: var(--color-text-secondary); font-size: 0.875rem; padding: calc(var(--spacing-unit) * 2) 0;">
+                            No games played yet
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
