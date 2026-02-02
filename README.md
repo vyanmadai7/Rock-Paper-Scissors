@@ -39,7 +39,7 @@ Total rounds played
 
 Detailed game history (win/lose/draw)
 
-🪨📄✂️ Interactive Choice Buttons
+## Interactive Choice Buttons
 
 Rock, Paper, Scissors with emojis
 
@@ -47,36 +47,24 @@ Hover highlights
 
 Winner/loser visual indicators
 
-🛠️ Technologies Used
+## Technologies Used
 
-HTML5 – Structure
+HTML5 :– Structure
 
-CSS3 – Styling, animations, responsive layout
+CSS3 :– Styling, animations, responsive layout
 
-Vanilla JavaScript – Game logic, score tracking, AI behavior
+Vanilla JavaScript :– Game logic, score tracking, AI behavior
 
 No frameworks required — everything is fully lightweight and dependency-free.
 
-📂 Project Structure
+## Project Structure
 /
 ├── index.html           # Main UI + structure
 ├── styles (inline CSS)  # Modern theme-based design
 └── script.js            # Game logic (choices, scoring, AI, theme)
 
 
-(If your JS is embedded inside the HTML, update this section accordingly.)
-
-▶️ How to Run the Game
-
-Download or clone the project.
-
-Open index.html in any modern browser.
-
-Enjoy the game!
-
-No build steps, no installation, no dependencies.
-
-🔧 How It Works
+## How It Works
 Game Flow
 
 User selects rock, paper, or scissors
@@ -99,7 +87,7 @@ Theme Toggle
 
 Uses data-theme="dark" on html to switch CSS variables instantly.
 
-📱 Responsive Design
+## Responsive Design
 
 The layout automatically adjusts for:
 
@@ -110,8 +98,8 @@ Tablet
 Desktop
 All while maintaining clean alignment and spacing.
 
-🧹 Reset & Utility Buttons
+## Reset & Utility Buttons
 
-Reset Game — clears all scores & history
+Reset Game :— clears all scores & history
 
-View Statistics — opens stats panel (if implemented)
+View Statistics :— opens stats panel
