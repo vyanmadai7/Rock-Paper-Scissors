@@ -1,6 +1,6 @@
 ## Rock Paper Scissors  Modern Web Game
 
-A designed, animated, theme toggle Rock–Paper–Scissors game built using HTML, CSS, and JavaScript. Features multiple difficulty levels, smart AI, streak tracking, win-rate calculation, game history, and a clean modern UI with light/dark mode.
+A designed, animated, theme toggle Rock–Paper–Scissors game built using HTML, CSS, and JavaScript.
 
 🚀 Features
 🧠 Four Difficulty Levels
