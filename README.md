@@ -23,11 +23,11 @@ Fade-in transitions
 
 Responsive layout (mobile-friendly)
 
-🌙 Light & Dark Mode
+## Light & Dark Mode
 
 Toggle between light and dark themes with a single button.
 
-📊 In-Game Statistics
+## In-Game Statistics
 
 Player score
 
