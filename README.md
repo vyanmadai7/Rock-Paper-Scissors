@@ -2,18 +2,18 @@
 
 A designed, animated, theme toggle Rock–Paper–Scissors game built using HTML, CSS, and JavaScript.
 
-🚀 Features
-🧠 Four Difficulty Levels
+## Features
+## Four Difficulty Levels
 
-Beginner — Mostly random choices
+Beginner :— Mostly random choices
 
-Intermediate — Slight prediction
+Intermediate :— Slight prediction
 
-Advanced — Smarter pattern reading
+Advanced :— Smarter pattern reading
 
-Expert — Hardest, adaptive AI
+Expert :— Hardest, adaptive AI
 
-🎨 Modern UI + Animations
+## Modern UI + Animations
 
 Smooth hover effects
 
