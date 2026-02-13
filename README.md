@@ -58,9 +58,9 @@ Vanilla JavaScript : Game logic, score tracking, AI behavior
 No frameworks required  everything is fully lightweight and dependency-free.
 
 ## Project Structure
-/
-├── index.html           # Main UI + structure
-├── styles (inline CSS)  # Modern theme-based design
+/<br>
+├── index.html           # Main UI + structure<br>
+├── styles (inline CSS)  # Modern theme-based design<br>
 └── script.js            # Game logic (choices, scoring, AI, theme)
 
 
