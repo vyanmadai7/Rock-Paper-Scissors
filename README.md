@@ -55,7 +55,7 @@ CSS3 : Styling, animations, responsive layout
 
 Vanilla JavaScript : Game logic, score tracking, AI behavior
 
-No frameworks required — everything is fully lightweight and dependency-free.
+No frameworks required  everything is fully lightweight and dependency-free.
 
 ## Project Structure
 /
